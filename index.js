@@ -12,7 +12,7 @@ function resumen(){
 
     console.log(cantidadEntrada.value)
 
-    
+	cantidadEntrada.value    
 
     const entradaEstudiante = (cantidad) =>  (cantidad*200) * 0.2;
     const entradaGeneral = (cantidad) =>  (cantidad*200);
