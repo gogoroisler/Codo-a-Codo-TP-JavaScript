@@ -1,4 +1,5 @@
-# Codo-a-Codo-TP-JavaScript
+#Codo-a-Codo
+Trabajo práctico integrador JS
 Ejercicio de JavaScript
 
 Trabajo de armado de pagina con HTML, CSS y JavaScript. 
