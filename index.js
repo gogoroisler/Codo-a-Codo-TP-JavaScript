@@ -8,11 +8,11 @@ const totalCompra = document.getElementById("result")
 
 function resumen(){
 
-    console.log(categoriaEntrada.value)
+     console.log(categoriaEntrada.value)
 
     console.log(cantidadEntrada.value)
 
-	cantidadEntrada.value    
+	cantidadEntrada.value   
 
     const entradaEstudiante = (cantidad) =>  (cantidad*200) * 0.2;
     const entradaGeneral = (cantidad) =>  (cantidad*200);
@@ -22,7 +22,7 @@ function resumen(){
     if(categoriaEntrada.value == "estudiante"){
         totalCompra.innerHTML = `Total a Pagar: $  ${entradaEstudiante(cantidadEntrada.value)}`
         console.log(entradaEstudiante(cantidadEntrada.value))
-        alert("estudiante")
+        
     } else if (categoriaEntrada.value == "otro"){
         totalCompra.innerHTML = `Total a Pagar: $  ${entradaGeneral(cantidadEntrada.value)}`
         console.log(entradaGeneral(cantidadEntrada.value))
